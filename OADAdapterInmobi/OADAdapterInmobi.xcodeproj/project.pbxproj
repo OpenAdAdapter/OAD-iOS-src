@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		CEC0027F1B14D64100CF3617 /* UniversalLib */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = CEC002801B14D64200CF3617 /* Build configuration list for PBXAggregateTarget "UniversalLib" */;
+			buildPhases = (
+				CEC002831B14D64700CF3617 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = UniversalLib;
+			productName = UniversalLib;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		CEC002591B14D56100CF3617 /* OADAdapterInmobi.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CEC002581B14D56100CF3617 /* OADAdapterInmobi.h */; };
+		CEC0025B1B14D56100CF3617 /* OADAdapterInmobi.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC0025A1B14D56100CF3617 /* OADAdapterInmobi.m */; };
+		CEC002611B14D56200CF3617 /* libOADAdapterInmobi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC002551B14D56100CF3617 /* libOADAdapterInmobi.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEC002621B14D56200CF3617 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEC0024D1B14D56100CF3617 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEC002541B14D56100CF3617;
+			remoteInfo = OADAdapterInmobi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CEC002531B14D56100CF3617 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				CEC002591B14D56100CF3617 /* OADAdapterInmobi.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CEC002551B14D56100CF3617 /* libOADAdapterInmobi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libOADAdapterInmobi.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC002581B14D56100CF3617 /* OADAdapterInmobi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OADAdapterInmobi.h; sourceTree = "<group>"; };
+		CEC0025A1B14D56100CF3617 /* OADAdapterInmobi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OADAdapterInmobi.m; sourceTree = "<group>"; };
+		CEC002601B14D56200CF3617 /* OADAdapterInmobiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OADAdapterInmobiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC002661B14D56200CF3617 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEC0026F1B14D57E00CF3617 /* OpenAdAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OpenAdAdapter.h; path = ../../../OpenAdAdapterApp/OpenAdAdapterApp/OpenAdAdapter.h; sourceTree = "<group>"; };
+		CEC002701B14D57E00CF3617 /* OADAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OADAdapter.h; path = ../../../OpenAdAdapterApp/OpenAdAdapterApp/OpenAdAdapter/OADAdapter.h; sourceTree = "<group>"; };
+		CEC002721B14D60200CF3617 /* IMBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IMBanner.h; path = "../../oad/InMobi-iOS-SDK-4.5.1/Libs/IMBanner.h"; sourceTree = "<group>"; };
+		CEC002731B14D60200CF3617 /* IMBannerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IMBannerDelegate.h; path = "../../oad/InMobi-iOS-SDK-4.5.1/Libs/IMBannerDelegate.h"; sourceTree = "<group>"; };
+		CEC002741B14D60200CF3617 /* IMConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IMConstants.h; path = "../../oad/InMobi-iOS-SDK-4.5.1/Libs/IMConstants.h"; sourceTree = "<group>"; };
+		CEC002751B14D60200CF3617 /* IMError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IMError.h; path = "../../oad/InMobi-iOS-SDK-4.5.1/Libs/IMError.h"; sourceTree = "<group>"; };
+		CEC002761B14D60200CF3617 /* IMIncentivisedDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IMIncentivisedDelegate.h; path = "../../oad/InMobi-iOS-SDK-4.5.1/Libs/IMIncentivisedDelegate.h"; sourceTree = "<group>"; };
+		CEC002771B14D60200CF3617 /* IMInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IMInterstitial.h; path = "../../oad/InMobi-iOS-SDK-4.5.1/Libs/IMInterstitial.h"; sourceTree = "<group>"; };
+		CEC002781B14D60200CF3617 /* IMInterstitialDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IMInterstitialDelegate.h; path = "../../oad/InMobi-iOS-SDK-4.5.1/Libs/IMInterstitialDelegate.h"; sourceTree = "<group>"; };
+		CEC002791B14D60200CF3617 /* IMNative.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IMNative.h; path = "../../oad/InMobi-iOS-SDK-4.5.1/Libs/IMNative.h"; sourceTree = "<group>"; };
+		CEC0027A1B14D60200CF3617 /* IMNativeDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IMNativeDelegate.h; path = "../../oad/InMobi-iOS-SDK-4.5.1/Libs/IMNativeDelegate.h"; sourceTree = "<group>"; };
+		CEC0027B1B14D60200CF3617 /* InMobi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InMobi.h; path = "../../oad/InMobi-iOS-SDK-4.5.1/Libs/InMobi.h"; sourceTree = "<group>"; };
+		CEC0027C1B14D60200CF3617 /* InMobiAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InMobiAnalytics.h; path = "../../oad/InMobi-iOS-SDK-4.5.1/Libs/InMobiAnalytics.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEC002521B14D56100CF3617 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC0025D1B14D56200CF3617 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC002611B14D56200CF3617 /* libOADAdapterInmobi.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEC0024C1B14D56100CF3617 = {
+			isa = PBXGroup;
+			children = (
+				CEC002711B14D5F200CF3617 /* Inmobi */,
+				CEC002571B14D56100CF3617 /* OADAdapterInmobi */,
+				CEC002641B14D56200CF3617 /* OADAdapterInmobiTests */,
+				CEC002561B14D56100CF3617 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEC002561B14D56100CF3617 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEC002551B14D56100CF3617 /* libOADAdapterInmobi.a */,
+				CEC002601B14D56200CF3617 /* OADAdapterInmobiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEC002571B14D56100CF3617 /* OADAdapterInmobi */ = {
+			isa = PBXGroup;
+			children = (
+				CEC0026F1B14D57E00CF3617 /* OpenAdAdapter.h */,
+				CEC002701B14D57E00CF3617 /* OADAdapter.h */,
+				CEC002581B14D56100CF3617 /* OADAdapterInmobi.h */,
+				CEC0025A1B14D56100CF3617 /* OADAdapterInmobi.m */,
+			);
+			path = OADAdapterInmobi;
+			sourceTree = "<group>";
+		};
+		CEC002641B14D56200CF3617 /* OADAdapterInmobiTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEC002651B14D56200CF3617 /* Supporting Files */,
+			);
+			path = OADAdapterInmobiTests;
+			sourceTree = "<group>";
+		};
+		CEC002651B14D56200CF3617 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEC002661B14D56200CF3617 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEC002711B14D5F200CF3617 /* Inmobi */ = {
+			isa = PBXGroup;
+			children = (
+				CEC002721B14D60200CF3617 /* IMBanner.h */,
+				CEC002731B14D60200CF3617 /* IMBannerDelegate.h */,
+				CEC002741B14D60200CF3617 /* IMConstants.h */,
+				CEC002751B14D60200CF3617 /* IMError.h */,
+				CEC002761B14D60200CF3617 /* IMIncentivisedDelegate.h */,
+				CEC002771B14D60200CF3617 /* IMInterstitial.h */,
+				CEC002781B14D60200CF3617 /* IMInterstitialDelegate.h */,
+				CEC002791B14D60200CF3617 /* IMNative.h */,
+				CEC0027A1B14D60200CF3617 /* IMNativeDelegate.h */,
+				CEC0027B1B14D60200CF3617 /* InMobi.h */,
+				CEC0027C1B14D60200CF3617 /* InMobiAnalytics.h */,
+			);
+			name = Inmobi;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEC002541B14D56100CF3617 /* OADAdapterInmobi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC002691B14D56200CF3617 /* Build configuration list for PBXNativeTarget "OADAdapterInmobi" */;
+			buildPhases = (
+				CEC002511B14D56100CF3617 /* Sources */,
+				CEC002521B14D56100CF3617 /* Frameworks */,
+				CEC002531B14D56100CF3617 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OADAdapterInmobi;
+			productName = OADAdapterInmobi;
+			productReference = CEC002551B14D56100CF3617 /* libOADAdapterInmobi.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CEC0025F1B14D56200CF3617 /* OADAdapterInmobiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC0026C1B14D56200CF3617 /* Build configuration list for PBXNativeTarget "OADAdapterInmobiTests" */;
+			buildPhases = (
+				CEC0025C1B14D56200CF3617 /* Sources */,
+				CEC0025D1B14D56200CF3617 /* Frameworks */,
+				CEC0025E1B14D56200CF3617 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEC002631B14D56200CF3617 /* PBXTargetDependency */,
+			);
+			name = OADAdapterInmobiTests;
+			productName = OADAdapterInmobiTests;
+			productReference = CEC002601B14D56200CF3617 /* OADAdapterInmobiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEC0024D1B14D56100CF3617 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = user;
+				TargetAttributes = {
+					CEC002541B14D56100CF3617 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					CEC0025F1B14D56200CF3617 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					CEC0027F1B14D64100CF3617 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = CEC002501B14D56100CF3617 /* Build configuration list for PBXProject "OADAdapterInmobi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEC0024C1B14D56100CF3617;
+			productRefGroup = CEC002561B14D56100CF3617 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEC002541B14D56100CF3617 /* OADAdapterInmobi */,
+				CEC0025F1B14D56200CF3617 /* OADAdapterInmobiTests */,
+				CEC0027F1B14D64100CF3617 /* UniversalLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEC0025E1B14D56200CF3617 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CEC002831B14D64700CF3617 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# define output folder environment variable\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\nBUILD_I386=${BUILD_DIR}/${CONFIGURATION}-extra\nmkdir -p ${BUILD_I386}\n\n# Step 1. Build Device and Simulator versions\nxcodebuild -target OADAdapterInmobi ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\nxcodebuild -target OADAdapterInmobi -configuration ${CONFIGURATION} -sdk iphonesimulator -arch x86_64 BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\nxcodebuild -target OADAdapterInmobi -configuration ${CONFIGURATION} -sdk iphonesimulator -arch i386 BUILD_DIR=\"${BUILD_I386}\" BUILD_ROOT=\"${BUILD_ROOT}\"\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Step 2. Create universal binary file using lipo\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/lib${PROJECT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/lib${PROJECT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/lib${PROJECT_NAME}.a\" \"${BUILD_I386}/${CONFIGURATION}-iphonesimulator/lib${PROJECT_NAME}.a\"\n\n# Last touch. copy the header files. Just for convenience\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/include\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n\nmkdir -p \"${PROJECT_DIR}/result\"\ncp -R \"${UNIVERSAL_OUTPUTFOLDER}/\" \"${PROJECT_DIR}/result\"\n\ncp -R \"${UNIVERSAL_OUTPUTFOLDER}/\" /Users/user/my/git/test/oad/result/libs/inmobi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEC002511B14D56100CF3617 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC0025B1B14D56100CF3617 /* OADAdapterInmobi.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC0025C1B14D56200CF3617 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEC002631B14D56200CF3617 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEC002541B14D56100CF3617 /* OADAdapterInmobi */;
+			targetProxy = CEC002621B14D56200CF3617 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CEC002671B14D56200CF3617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEC002681B14D56200CF3617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEC0026A1B14D56200CF3617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/user/my/git/test/oad/InMobi-iOS-SDK-4.5.1/Libs",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CEC0026B1B14D56200CF3617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/user/my/git/test/oad/InMobi-iOS-SDK-4.5.1/Libs",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CEC0026D1B14D56200CF3617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OADAdapterInmobiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CEC0026E1B14D56200CF3617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OADAdapterInmobiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CEC002811B14D64200CF3617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CEC002821B14D64200CF3617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEC002501B14D56100CF3617 /* Build configuration list for PBXProject "OADAdapterInmobi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC002671B14D56200CF3617 /* Debug */,
+				CEC002681B14D56200CF3617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEC002691B14D56200CF3617 /* Build configuration list for PBXNativeTarget "OADAdapterInmobi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC0026A1B14D56200CF3617 /* Debug */,
+				CEC0026B1B14D56200CF3617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEC0026C1B14D56200CF3617 /* Build configuration list for PBXNativeTarget "OADAdapterInmobiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC0026D1B14D56200CF3617 /* Debug */,
+				CEC0026E1B14D56200CF3617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEC002801B14D64200CF3617 /* Build configuration list for PBXAggregateTarget "UniversalLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC002811B14D64200CF3617 /* Debug */,
+				CEC002821B14D64200CF3617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEC0024D1B14D56100CF3617 /* Project object */;
+}

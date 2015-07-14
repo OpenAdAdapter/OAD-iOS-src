@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEC0018D1B14815500CF3617 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC0018C1B14815500CF3617 /* main.m */; };
+		CEC001901B14815500CF3617 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC0018F1B14815500CF3617 /* AppDelegate.m */; };
+		CEC001981B14815500CF3617 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC001971B14815500CF3617 /* Images.xcassets */; };
+		CEC0019B1B14815500CF3617 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEC001991B14815500CF3617 /* LaunchScreen.xib */; };
+		CEC001A71B14815500CF3617 /* OpenAdAdapterSampleAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC001A61B14815500CF3617 /* OpenAdAdapterSampleAppTests.m */; };
+		CEC001B31B14819F00CF3617 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC001B11B14819F00CF3617 /* ViewController.m */; };
+		CEC001B41B14819F00CF3617 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC001B21B14819F00CF3617 /* Main.storyboard */; };
+		CEC001CE1B1481BC00CF3617 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC001B51B1481BB00CF3617 /* iAd.framework */; };
+		CEC001CF1B1481BC00CF3617 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC001B61B1481BB00CF3617 /* WebKit.framework */; };
+		CEC001D01B1481BC00CF3617 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC001B71B1481BB00CF3617 /* Social.framework */; };
+		CEC001D11B1481BC00CF3617 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC001B81B1481BB00CF3617 /* Security.framework */; };
+		CEC001D21B1481BC00CF3617 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC001B91B1481BB00CF3617 /* MediaPlayer.framework */; };
+		CEC001D31B1481BC00CF3617 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC001BA1B1481BB00CF3617 /* EventKit.framework */; };
+		CEC001D41B1481BC00CF3617 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC001BB1B1481BB00CF3617 /* EventKitUI.framework */; };
+		CEC001D51B1481BC00CF3617 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC001BC1B1481BB00CF3617 /* CoreTelephony.framework */; };
+		CEC001D61B1481BC00CF3617 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC001BD1B1481BB00CF3617 /* CoreLocation.framework */; };
+		CEC001D71B1481BC00CF3617 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC001BE1B1481BB00CF3617 /* libsqlite3.0.dylib */; };
+		CEC001D81B1481BC00CF3617 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC001BF1B1481BB00CF3617 /* libz.dylib */; };
+		CEC001D91B1481BC00CF3617 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC001C01B1481BB00CF3617 /* libxml2.2.dylib */; };
+		CEC001DF1B1481BD00CF3617 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC001C61B1481BB00CF3617 /* GoogleMobileAds.framework */; };
+		CEC001E01B1481BD00CF3617 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC001C71B1481BC00CF3617 /* AudioToolbox.framework */; };
+		CEC001E11B1481BD00CF3617 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC001C81B1481BC00CF3617 /* AVFoundation.framework */; };
+		CEC001E21B1481BD00CF3617 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC001C91B1481BC00CF3617 /* CoreGraphics.framework */; };
+		CEC001E31B1481BD00CF3617 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC001CA1B1481BC00CF3617 /* MessageUI.framework */; };
+		CEC001E41B1481BD00CF3617 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC001CB1B1481BC00CF3617 /* StoreKit.framework */; };
+		CEC001E51B1481BD00CF3617 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC001CC1B1481BC00CF3617 /* SystemConfiguration.framework */; };
+		CEC001E61B1481BD00CF3617 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC001CD1B1481BC00CF3617 /* AdSupport.framework */; };
+		CEC001F51B14821F00CF3617 /* libInMobi-4.5.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC001F41B14821F00CF3617 /* libInMobi-4.5.1.a */; };
+		CEC003611B14F68600CF3617 /* libOpenAdAdapter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC003601B14F68600CF3617 /* libOpenAdAdapter.a */; };
+		CEC003631B14F74500CF3617 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC003621B14F74500CF3617 /* CoreMedia.framework */; };
+		CEC003651B14F80D00CF3617 /* libOADAdapterAdmob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC003641B14F80D00CF3617 /* libOADAdapterAdmob.a */; };
+		CEC003711B150B3200CF3617 /* libOADAdapterIad.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC003701B150B3200CF3617 /* libOADAdapterIad.a */; };
+		CEC003731B150B3A00CF3617 /* libOADAdapterInmobi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC003721B150B3A00CF3617 /* libOADAdapterInmobi.a */; };
+		CEC003761B150DEC00CF3617 /* AdColony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC003751B150DEC00CF3617 /* AdColony.framework */; };
+		CEC003781B150DF900CF3617 /* AerServSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC003771B150DF900CF3617 /* AerServSDK.framework */; };
+		CEC0037A1B150E0300CF3617 /* Chartboost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC003791B150E0300CF3617 /* Chartboost.framework */; };
+		CEC0037C1B150E0E00CF3617 /* HeyzapAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC0037B1B150E0E00CF3617 /* HeyzapAds.framework */; };
+		CEC0037E1B150E2100CF3617 /* libOADAdapterAdcolony.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC0037D1B150E2100CF3617 /* libOADAdapterAdcolony.a */; };
+		CEC003801B150E2C00CF3617 /* libOADAdapterAerserv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC0037F1B150E2C00CF3617 /* libOADAdapterAerserv.a */; };
+		CEC003821B150E3800CF3617 /* libOADAdapterChartboost.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC003811B150E3800CF3617 /* libOADAdapterChartboost.a */; };
+		CEC003841B150E4300CF3617 /* libOADAdapterHeyzap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC003831B150E4300CF3617 /* libOADAdapterHeyzap.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEC001A11B14815500CF3617 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEC0017F1B14815500CF3617 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEC001861B14815500CF3617;
+			remoteInfo = OpenAdAdapterSampleApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEC001871B14815500CF3617 /* OpenAdAdapterSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenAdAdapterSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC0018B1B14815500CF3617 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEC0018C1B14815500CF3617 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEC0018E1B14815500CF3617 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEC0018F1B14815500CF3617 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEC001971B14815500CF3617 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CEC0019A1B14815500CF3617 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CEC001A01B14815500CF3617 /* OpenAdAdapterSampleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenAdAdapterSampleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC001A51B14815500CF3617 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEC001A61B14815500CF3617 /* OpenAdAdapterSampleAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenAdAdapterSampleAppTests.m; sourceTree = "<group>"; };
+		CEC001B01B14819F00CF3617 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CEC001B11B14819F00CF3617 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CEC001B21B14819F00CF3617 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		CEC001B51B1481BB00CF3617 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		CEC001B61B1481BB00CF3617 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		CEC001B71B1481BB00CF3617 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		CEC001B81B1481BB00CF3617 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		CEC001B91B1481BB00CF3617 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		CEC001BA1B1481BB00CF3617 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		CEC001BB1B1481BB00CF3617 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		CEC001BC1B1481BB00CF3617 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		CEC001BD1B1481BB00CF3617 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CEC001BE1B1481BB00CF3617 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		CEC001BF1B1481BB00CF3617 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		CEC001C01B1481BB00CF3617 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
+		CEC001C61B1481BB00CF3617 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = ../../OpenAdAdapterApp/GoogleMobileAds.framework; sourceTree = "<group>"; };
+		CEC001C71B1481BC00CF3617 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		CEC001C81B1481BC00CF3617 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CEC001C91B1481BC00CF3617 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEC001CA1B1481BC00CF3617 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		CEC001CB1B1481BC00CF3617 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		CEC001CC1B1481BC00CF3617 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CEC001CD1B1481BC00CF3617 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		CEC001E91B14821F00CF3617 /* IMBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IMBanner.h; path = "../../oad/InMobi-iOS-SDK-4.5.1/Libs/IMBanner.h"; sourceTree = "<group>"; };
+		CEC001EA1B14821F00CF3617 /* IMBannerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IMBannerDelegate.h; path = "../../oad/InMobi-iOS-SDK-4.5.1/Libs/IMBannerDelegate.h"; sourceTree = "<group>"; };
+		CEC001EB1B14821F00CF3617 /* IMConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IMConstants.h; path = "../../oad/InMobi-iOS-SDK-4.5.1/Libs/IMConstants.h"; sourceTree = "<group>"; };
+		CEC001EC1B14821F00CF3617 /* IMError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IMError.h; path = "../../oad/InMobi-iOS-SDK-4.5.1/Libs/IMError.h"; sourceTree = "<group>"; };
+		CEC001ED1B14821F00CF3617 /* IMIncentivisedDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IMIncentivisedDelegate.h; path = "../../oad/InMobi-iOS-SDK-4.5.1/Libs/IMIncentivisedDelegate.h"; sourceTree = "<group>"; };
+		CEC001EE1B14821F00CF3617 /* IMInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IMInterstitial.h; path = "../../oad/InMobi-iOS-SDK-4.5.1/Libs/IMInterstitial.h"; sourceTree = "<group>"; };
+		CEC001EF1B14821F00CF3617 /* IMInterstitialDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IMInterstitialDelegate.h; path = "../../oad/InMobi-iOS-SDK-4.5.1/Libs/IMInterstitialDelegate.h"; sourceTree = "<group>"; };
+		CEC001F01B14821F00CF3617 /* IMNative.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IMNative.h; path = "../../oad/InMobi-iOS-SDK-4.5.1/Libs/IMNative.h"; sourceTree = "<group>"; };
+		CEC001F11B14821F00CF3617 /* IMNativeDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IMNativeDelegate.h; path = "../../oad/InMobi-iOS-SDK-4.5.1/Libs/IMNativeDelegate.h"; sourceTree = "<group>"; };
+		CEC001F21B14821F00CF3617 /* InMobi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InMobi.h; path = "../../oad/InMobi-iOS-SDK-4.5.1/Libs/InMobi.h"; sourceTree = "<group>"; };
+		CEC001F31B14821F00CF3617 /* InMobiAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InMobiAnalytics.h; path = "../../oad/InMobi-iOS-SDK-4.5.1/Libs/InMobiAnalytics.h"; sourceTree = "<group>"; };
+		CEC001F41B14821F00CF3617 /* libInMobi-4.5.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libInMobi-4.5.1.a"; path = "../../oad/InMobi-iOS-SDK-4.5.1/Libs/libInMobi-4.5.1.a"; sourceTree = "<group>"; };
+		CEC001F91B14824300CF3617 /* OpenAdAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpenAdAdapter.h; path = OpenAdAdapter/OpenAdAdapter.h; sourceTree = "<group>"; };
+		CEC003601B14F68600CF3617 /* libOpenAdAdapter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOpenAdAdapter.a; path = ../OpenAdAdapter/result/libOpenAdAdapter.a; sourceTree = "<group>"; };
+		CEC003621B14F74500CF3617 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		CEC003641B14F80D00CF3617 /* libOADAdapterAdmob.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOADAdapterAdmob.a; path = ../OADAdapterAdmob/result/libOADAdapterAdmob.a; sourceTree = "<group>"; };
+		CEC003701B150B3200CF3617 /* libOADAdapterIad.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOADAdapterIad.a; path = ../OADAdapterIad/result/libOADAdapterIad.a; sourceTree = "<group>"; };
+		CEC003721B150B3A00CF3617 /* libOADAdapterInmobi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOADAdapterInmobi.a; path = ../OADAdapterInmobi/result/libOADAdapterInmobi.a; sourceTree = "<group>"; };
+		CEC003751B150DEC00CF3617 /* AdColony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdColony.framework; path = "../../oad/AdColony-iOS-SDK/AdColony.framework"; sourceTree = "<group>"; };
+		CEC003771B150DF900CF3617 /* AerServSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AerServSDK.framework; path = "../../oad/aerserv-ios-sdk-min-latest/aerserv-ios-sdk/lib/AerServSDK.framework"; sourceTree = "<group>"; };
+		CEC003791B150E0300CF3617 /* Chartboost.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Chartboost.framework; path = ../../oad/Chartboost/Chartboost.framework; sourceTree = "<group>"; };
+		CEC0037B1B150E0E00CF3617 /* HeyzapAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HeyzapAds.framework; path = "../../oad/heyzap-ads-sdk-8.1.0/ios-sdk/HeyzapAds.framework"; sourceTree = "<group>"; };
+		CEC0037D1B150E2100CF3617 /* libOADAdapterAdcolony.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOADAdapterAdcolony.a; path = ../OADAdapterAdcolony/result/libOADAdapterAdcolony.a; sourceTree = "<group>"; };
+		CEC0037F1B150E2C00CF3617 /* libOADAdapterAerserv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOADAdapterAerserv.a; path = ../OADAdapterAerserv/result/libOADAdapterAerserv.a; sourceTree = "<group>"; };
+		CEC003811B150E3800CF3617 /* libOADAdapterChartboost.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOADAdapterChartboost.a; path = ../OADAdapterChartboost/result/libOADAdapterChartboost.a; sourceTree = "<group>"; };
+		CEC003831B150E4300CF3617 /* libOADAdapterHeyzap.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOADAdapterHeyzap.a; path = ../OADAdapterHeyzap/result/libOADAdapterHeyzap.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEC001841B14815500CF3617 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC003631B14F74500CF3617 /* CoreMedia.framework in Frameworks */,
+				CEC001DF1B1481BD00CF3617 /* GoogleMobileAds.framework in Frameworks */,
+				CEC0037C1B150E0E00CF3617 /* HeyzapAds.framework in Frameworks */,
+				CEC003781B150DF900CF3617 /* AerServSDK.framework in Frameworks */,
+				CEC001D81B1481BC00CF3617 /* libz.dylib in Frameworks */,
+				CEC001E21B1481BD00CF3617 /* CoreGraphics.framework in Frameworks */,
+				CEC001F51B14821F00CF3617 /* libInMobi-4.5.1.a in Frameworks */,
+				CEC001D41B1481BC00CF3617 /* EventKitUI.framework in Frameworks */,
+				CEC001D01B1481BC00CF3617 /* Social.framework in Frameworks */,
+				CEC003801B150E2C00CF3617 /* libOADAdapterAerserv.a in Frameworks */,
+				CEC003761B150DEC00CF3617 /* AdColony.framework in Frameworks */,
+				CEC003821B150E3800CF3617 /* libOADAdapterChartboost.a in Frameworks */,
+				CEC001D21B1481BC00CF3617 /* MediaPlayer.framework in Frameworks */,
+				CEC001D61B1481BC00CF3617 /* CoreLocation.framework in Frameworks */,
+				CEC001CF1B1481BC00CF3617 /* WebKit.framework in Frameworks */,
+				CEC003731B150B3A00CF3617 /* libOADAdapterInmobi.a in Frameworks */,
+				CEC001E41B1481BD00CF3617 /* StoreKit.framework in Frameworks */,
+				CEC001D51B1481BC00CF3617 /* CoreTelephony.framework in Frameworks */,
+				CEC001E11B1481BD00CF3617 /* AVFoundation.framework in Frameworks */,
+				CEC001D71B1481BC00CF3617 /* libsqlite3.0.dylib in Frameworks */,
+				CEC001D11B1481BC00CF3617 /* Security.framework in Frameworks */,
+				CEC001D31B1481BC00CF3617 /* EventKit.framework in Frameworks */,
+				CEC003711B150B3200CF3617 /* libOADAdapterIad.a in Frameworks */,
+				CEC001CE1B1481BC00CF3617 /* iAd.framework in Frameworks */,
+				CEC001D91B1481BC00CF3617 /* libxml2.2.dylib in Frameworks */,
+				CEC003651B14F80D00CF3617 /* libOADAdapterAdmob.a in Frameworks */,
+				CEC001E61B1481BD00CF3617 /* AdSupport.framework in Frameworks */,
+				CEC0037A1B150E0300CF3617 /* Chartboost.framework in Frameworks */,
+				CEC001E31B1481BD00CF3617 /* MessageUI.framework in Frameworks */,
+				CEC001E51B1481BD00CF3617 /* SystemConfiguration.framework in Frameworks */,
+				CEC003611B14F68600CF3617 /* libOpenAdAdapter.a in Frameworks */,
+				CEC0037E1B150E2100CF3617 /* libOADAdapterAdcolony.a in Frameworks */,
+				CEC001E01B1481BD00CF3617 /* AudioToolbox.framework in Frameworks */,
+				CEC003841B150E4300CF3617 /* libOADAdapterHeyzap.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC0019D1B14815500CF3617 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEC0017E1B14815500CF3617 = {
+			isa = PBXGroup;
+			children = (
+				CEC003741B150DBE00CF3617 /* ad.frameworks */,
+				CEC003621B14F74500CF3617 /* CoreMedia.framework */,
+				CEC001E71B1481E800CF3617 /* libs */,
+				CEC001B61B1481BB00CF3617 /* WebKit.framework */,
+				CEC001B71B1481BB00CF3617 /* Social.framework */,
+				CEC001B81B1481BB00CF3617 /* Security.framework */,
+				CEC001B91B1481BB00CF3617 /* MediaPlayer.framework */,
+				CEC001BA1B1481BB00CF3617 /* EventKit.framework */,
+				CEC001BB1B1481BB00CF3617 /* EventKitUI.framework */,
+				CEC001BC1B1481BB00CF3617 /* CoreTelephony.framework */,
+				CEC001BD1B1481BB00CF3617 /* CoreLocation.framework */,
+				CEC001BE1B1481BB00CF3617 /* libsqlite3.0.dylib */,
+				CEC001BF1B1481BB00CF3617 /* libz.dylib */,
+				CEC001C01B1481BB00CF3617 /* libxml2.2.dylib */,
+				CEC001C71B1481BC00CF3617 /* AudioToolbox.framework */,
+				CEC001C81B1481BC00CF3617 /* AVFoundation.framework */,
+				CEC001C91B1481BC00CF3617 /* CoreGraphics.framework */,
+				CEC001CA1B1481BC00CF3617 /* MessageUI.framework */,
+				CEC001CB1B1481BC00CF3617 /* StoreKit.framework */,
+				CEC001CC1B1481BC00CF3617 /* SystemConfiguration.framework */,
+				CEC001CD1B1481BC00CF3617 /* AdSupport.framework */,
+				CEC001891B14815500CF3617 /* OpenAdAdapterSampleApp */,
+				CEC001A31B14815500CF3617 /* OpenAdAdapterSampleAppTests */,
+				CEC001881B14815500CF3617 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEC001881B14815500CF3617 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEC001871B14815500CF3617 /* OpenAdAdapterSampleApp.app */,
+				CEC001A01B14815500CF3617 /* OpenAdAdapterSampleAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEC001891B14815500CF3617 /* OpenAdAdapterSampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				CEC0018E1B14815500CF3617 /* AppDelegate.h */,
+				CEC0018F1B14815500CF3617 /* AppDelegate.m */,
+				CEC001B01B14819F00CF3617 /* ViewController.h */,
+				CEC001B11B14819F00CF3617 /* ViewController.m */,
+				CEC001B21B14819F00CF3617 /* Main.storyboard */,
+				CEC001971B14815500CF3617 /* Images.xcassets */,
+				CEC001991B14815500CF3617 /* LaunchScreen.xib */,
+				CEC0018A1B14815500CF3617 /* Supporting Files */,
+			);
+			path = OpenAdAdapterSampleApp;
+			sourceTree = "<group>";
+		};
+		CEC0018A1B14815500CF3617 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEC0018B1B14815500CF3617 /* Info.plist */,
+				CEC0018C1B14815500CF3617 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEC001A31B14815500CF3617 /* OpenAdAdapterSampleAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEC001A61B14815500CF3617 /* OpenAdAdapterSampleAppTests.m */,
+				CEC001A41B14815500CF3617 /* Supporting Files */,
+			);
+			path = OpenAdAdapterSampleAppTests;
+			sourceTree = "<group>";
+		};
+		CEC001A41B14815500CF3617 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEC001A51B14815500CF3617 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEC001E71B1481E800CF3617 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				CEC001F61B14822600CF3617 /* OpenAdAdapter */,
+				CEC001E81B14820700CF3617 /* InMobi */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+		CEC001E81B14820700CF3617 /* InMobi */ = {
+			isa = PBXGroup;
+			children = (
+				CEC001E91B14821F00CF3617 /* IMBanner.h */,
+				CEC001EA1B14821F00CF3617 /* IMBannerDelegate.h */,
+				CEC001EB1B14821F00CF3617 /* IMConstants.h */,
+				CEC001EC1B14821F00CF3617 /* IMError.h */,
+				CEC001ED1B14821F00CF3617 /* IMIncentivisedDelegate.h */,
+				CEC001EE1B14821F00CF3617 /* IMInterstitial.h */,
+				CEC001EF1B14821F00CF3617 /* IMInterstitialDelegate.h */,
+				CEC001F01B14821F00CF3617 /* IMNative.h */,
+				CEC001F11B14821F00CF3617 /* IMNativeDelegate.h */,
+				CEC001F21B14821F00CF3617 /* InMobi.h */,
+				CEC001F31B14821F00CF3617 /* InMobiAnalytics.h */,
+				CEC001F41B14821F00CF3617 /* libInMobi-4.5.1.a */,
+			);
+			name = InMobi;
+			sourceTree = "<group>";
+		};
+		CEC001F61B14822600CF3617 /* OpenAdAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				CEC003601B14F68600CF3617 /* libOpenAdAdapter.a */,
+				CEC003641B14F80D00CF3617 /* libOADAdapterAdmob.a */,
+				CEC003701B150B3200CF3617 /* libOADAdapterIad.a */,
+				CEC003721B150B3A00CF3617 /* libOADAdapterInmobi.a */,
+				CEC0037D1B150E2100CF3617 /* libOADAdapterAdcolony.a */,
+				CEC0037F1B150E2C00CF3617 /* libOADAdapterAerserv.a */,
+				CEC003811B150E3800CF3617 /* libOADAdapterChartboost.a */,
+				CEC003831B150E4300CF3617 /* libOADAdapterHeyzap.a */,
+				CEC001F71B14824300CF3617 /* include */,
+			);
+			name = OpenAdAdapter;
+			sourceTree = "<group>";
+		};
+		CEC001F71B14824300CF3617 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				CEC001F91B14824300CF3617 /* OpenAdAdapter.h */,
+			);
+			name = include;
+			path = "../../../../../Library/Developer/Xcode/DerivedData/OpenAdAdapter-ctrnxgqnurdyladfnbxbaaelmioe/Build/Products/Debug-universal/include";
+			sourceTree = "<group>";
+		};
+		CEC003741B150DBE00CF3617 /* ad.frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEC0037B1B150E0E00CF3617 /* HeyzapAds.framework */,
+				CEC003791B150E0300CF3617 /* Chartboost.framework */,
+				CEC003771B150DF900CF3617 /* AerServSDK.framework */,
+				CEC003751B150DEC00CF3617 /* AdColony.framework */,
+				CEC001C61B1481BB00CF3617 /* GoogleMobileAds.framework */,
+				CEC001B51B1481BB00CF3617 /* iAd.framework */,
+			);
+			name = ad.frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEC001861B14815500CF3617 /* OpenAdAdapterSampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC001AA1B14815500CF3617 /* Build configuration list for PBXNativeTarget "OpenAdAdapterSampleApp" */;
+			buildPhases = (
+				CEC001831B14815500CF3617 /* Sources */,
+				CEC001841B14815500CF3617 /* Frameworks */,
+				CEC001851B14815500CF3617 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenAdAdapterSampleApp;
+			productName = OpenAdAdapterSampleApp;
+			productReference = CEC001871B14815500CF3617 /* OpenAdAdapterSampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEC0019F1B14815500CF3617 /* OpenAdAdapterSampleAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC001AD1B14815500CF3617 /* Build configuration list for PBXNativeTarget "OpenAdAdapterSampleAppTests" */;
+			buildPhases = (
+				CEC0019C1B14815500CF3617 /* Sources */,
+				CEC0019D1B14815500CF3617 /* Frameworks */,
+				CEC0019E1B14815500CF3617 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEC001A21B14815500CF3617 /* PBXTargetDependency */,
+			);
+			name = OpenAdAdapterSampleAppTests;
+			productName = OpenAdAdapterSampleAppTests;
+			productReference = CEC001A01B14815500CF3617 /* OpenAdAdapterSampleAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEC0017F1B14815500CF3617 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = user;
+				TargetAttributes = {
+					CEC001861B14815500CF3617 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					CEC0019F1B14815500CF3617 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = CEC001861B14815500CF3617;
+					};
+				};
+			};
+			buildConfigurationList = CEC001821B14815500CF3617 /* Build configuration list for PBXProject "OpenAdAdapterSampleApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEC0017E1B14815500CF3617;
+			productRefGroup = CEC001881B14815500CF3617 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEC001861B14815500CF3617 /* OpenAdAdapterSampleApp */,
+				CEC0019F1B14815500CF3617 /* OpenAdAdapterSampleAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEC001851B14815500CF3617 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC001B41B14819F00CF3617 /* Main.storyboard in Resources */,
+				CEC0019B1B14815500CF3617 /* LaunchScreen.xib in Resources */,
+				CEC001981B14815500CF3617 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC0019E1B14815500CF3617 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEC001831B14815500CF3617 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC001B31B14819F00CF3617 /* ViewController.m in Sources */,
+				CEC001901B14815500CF3617 /* AppDelegate.m in Sources */,
+				CEC0018D1B14815500CF3617 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC0019C1B14815500CF3617 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC001A71B14815500CF3617 /* OpenAdAdapterSampleAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEC001A21B14815500CF3617 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEC001861B14815500CF3617 /* OpenAdAdapterSampleApp */;
+			targetProxy = CEC001A11B14815500CF3617 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEC001991B14815500CF3617 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEC0019A1B14815500CF3617 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEC001A81B14815500CF3617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEC001A91B14815500CF3617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEC001AB1B14815500CF3617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/user/my/git/test/oad/AdColony-iOS-SDK",
+					"/Users/user/my/git/test/oad/aerserv-ios-sdk-min-latest/aerserv-ios-sdk/lib",
+					/Users/user/my/git/test/oad/Chartboost,
+					"/Users/user/my/git/test/oad/heyzap-ads-sdk-8.1.0/ios-sdk",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/X1-augaubnhvzpccccjyzgxpelfgsvz/Build/Products/Debug-iphoneos",
+					/Users/user/my/git/test/OpenAdAdapterApp,
+				);
+				INFOPLIST_FILE = OpenAdAdapterSampleApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/user/my/git/test/oad/InMobi-iOS-SDK-4.5.1/Libs",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/OpenAdAdapter-ctrnxgqnurdyladfnbxbaaelmioe/Build/Products/Debug-universal",
+					/Users/user/my/git/test/oad_fr/OpenAdAdapter/result,
+					/Users/user/my/git/test/oad_fr/OADAdapterAdmob/result,
+					/Users/user/my/git/test/oad_fr/OADAdapterAdcolony/result,
+					/Users/user/my/git/test/oad_fr/OADAdapterAerserv/result,
+					/Users/user/my/git/test/oad_fr/OADAdapterChartboost/result,
+					/Users/user/my/git/test/oad_fr/OADAdapterHeyzap/result,
+					/Users/user/my/git/test/oad_fr/OADAdapterIad/result,
+					/Users/user/my/git/test/oad_fr/OADAdapterInmobi/result,
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CEC001AC1B14815500CF3617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/user/my/git/test/oad/AdColony-iOS-SDK",
+					"/Users/user/my/git/test/oad/aerserv-ios-sdk-min-latest/aerserv-ios-sdk/lib",
+					/Users/user/my/git/test/oad/Chartboost,
+					"/Users/user/my/git/test/oad/heyzap-ads-sdk-8.1.0/ios-sdk",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/X1-augaubnhvzpccccjyzgxpelfgsvz/Build/Products/Debug-iphoneos",
+					/Users/user/my/git/test/OpenAdAdapterApp,
+				);
+				INFOPLIST_FILE = OpenAdAdapterSampleApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/user/my/git/test/oad/InMobi-iOS-SDK-4.5.1/Libs",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/OpenAdAdapter-ctrnxgqnurdyladfnbxbaaelmioe/Build/Products/Debug-universal",
+					/Users/user/my/git/test/oad_fr/OpenAdAdapter/result,
+					/Users/user/my/git/test/oad_fr/OADAdapterAdmob/result,
+					/Users/user/my/git/test/oad_fr/OADAdapterAdcolony/result,
+					/Users/user/my/git/test/oad_fr/OADAdapterAerserv/result,
+					/Users/user/my/git/test/oad_fr/OADAdapterChartboost/result,
+					/Users/user/my/git/test/oad_fr/OADAdapterHeyzap/result,
+					/Users/user/my/git/test/oad_fr/OADAdapterIad/result,
+					/Users/user/my/git/test/oad_fr/OADAdapterInmobi/result,
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CEC001AE1B14815500CF3617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OpenAdAdapterSampleAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenAdAdapterSampleApp.app/OpenAdAdapterSampleApp";
+			};
+			name = Debug;
+		};
+		CEC001AF1B14815500CF3617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OpenAdAdapterSampleAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenAdAdapterSampleApp.app/OpenAdAdapterSampleApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEC001821B14815500CF3617 /* Build configuration list for PBXProject "OpenAdAdapterSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC001A81B14815500CF3617 /* Debug */,
+				CEC001A91B14815500CF3617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEC001AA1B14815500CF3617 /* Build configuration list for PBXNativeTarget "OpenAdAdapterSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC001AB1B14815500CF3617 /* Debug */,
+				CEC001AC1B14815500CF3617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEC001AD1B14815500CF3617 /* Build configuration list for PBXNativeTarget "OpenAdAdapterSampleAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC001AE1B14815500CF3617 /* Debug */,
+				CEC001AF1B14815500CF3617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEC0017F1B14815500CF3617 /* Project object */;
+}

@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		CEC0032F1B14E9BC00CF3617 /* UniversalLib */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = CEC003301B14E9BC00CF3617 /* Build configuration list for PBXAggregateTarget "UniversalLib" */;
+			buildPhases = (
+				CEC003331B14E9C300CF3617 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = UniversalLib;
+			productName = UniversalLib;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		CEC003151B14E93C00CF3617 /* OADAdapterAdcolony.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CEC003141B14E93C00CF3617 /* OADAdapterAdcolony.h */; };
+		CEC003171B14E93C00CF3617 /* OADAdapterAdcolony.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC003161B14E93C00CF3617 /* OADAdapterAdcolony.m */; };
+		CEC0031D1B14E93C00CF3617 /* libOADAdapterAdcolony.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC003111B14E93C00CF3617 /* libOADAdapterAdcolony.a */; };
+		CEC0032E1B14E97500CF3617 /* AdColony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC0032D1B14E97500CF3617 /* AdColony.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEC0031E1B14E93C00CF3617 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEC003091B14E93C00CF3617 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEC003101B14E93C00CF3617;
+			remoteInfo = OADAdapterAdcolony;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CEC0030F1B14E93C00CF3617 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				CEC003151B14E93C00CF3617 /* OADAdapterAdcolony.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CEC003111B14E93C00CF3617 /* libOADAdapterAdcolony.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libOADAdapterAdcolony.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC003141B14E93C00CF3617 /* OADAdapterAdcolony.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OADAdapterAdcolony.h; sourceTree = "<group>"; };
+		CEC003161B14E93C00CF3617 /* OADAdapterAdcolony.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OADAdapterAdcolony.m; sourceTree = "<group>"; };
+		CEC0031C1B14E93C00CF3617 /* OADAdapterAdcolonyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OADAdapterAdcolonyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC003221B14E93C00CF3617 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEC0032B1B14E96800CF3617 /* OpenAdAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OpenAdAdapter.h; path = ../../../OpenAdAdapterApp/OpenAdAdapterApp/OpenAdAdapter.h; sourceTree = "<group>"; };
+		CEC0032C1B14E96800CF3617 /* OADAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OADAdapter.h; path = ../../../OpenAdAdapterApp/OpenAdAdapterApp/OpenAdAdapter/OADAdapter.h; sourceTree = "<group>"; };
+		CEC0032D1B14E97500CF3617 /* AdColony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdColony.framework; path = "../../oad/AdColony-iOS-SDK/AdColony.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEC0030E1B14E93C00CF3617 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC0032E1B14E97500CF3617 /* AdColony.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC003191B14E93C00CF3617 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC0031D1B14E93C00CF3617 /* libOADAdapterAdcolony.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEC003081B14E93C00CF3617 = {
+			isa = PBXGroup;
+			children = (
+				CEC0032D1B14E97500CF3617 /* AdColony.framework */,
+				CEC003131B14E93C00CF3617 /* OADAdapterAdcolony */,
+				CEC003201B14E93C00CF3617 /* OADAdapterAdcolonyTests */,
+				CEC003121B14E93C00CF3617 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEC003121B14E93C00CF3617 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEC003111B14E93C00CF3617 /* libOADAdapterAdcolony.a */,
+				CEC0031C1B14E93C00CF3617 /* OADAdapterAdcolonyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEC003131B14E93C00CF3617 /* OADAdapterAdcolony */ = {
+			isa = PBXGroup;
+			children = (
+				CEC0032B1B14E96800CF3617 /* OpenAdAdapter.h */,
+				CEC0032C1B14E96800CF3617 /* OADAdapter.h */,
+				CEC003141B14E93C00CF3617 /* OADAdapterAdcolony.h */,
+				CEC003161B14E93C00CF3617 /* OADAdapterAdcolony.m */,
+			);
+			path = OADAdapterAdcolony;
+			sourceTree = "<group>";
+		};
+		CEC003201B14E93C00CF3617 /* OADAdapterAdcolonyTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEC003211B14E93C00CF3617 /* Supporting Files */,
+			);
+			path = OADAdapterAdcolonyTests;
+			sourceTree = "<group>";
+		};
+		CEC003211B14E93C00CF3617 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEC003221B14E93C00CF3617 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEC003101B14E93C00CF3617 /* OADAdapterAdcolony */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC003251B14E93C00CF3617 /* Build configuration list for PBXNativeTarget "OADAdapterAdcolony" */;
+			buildPhases = (
+				CEC0030D1B14E93C00CF3617 /* Sources */,
+				CEC0030E1B14E93C00CF3617 /* Frameworks */,
+				CEC0030F1B14E93C00CF3617 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OADAdapterAdcolony;
+			productName = OADAdapterAdcolony;
+			productReference = CEC003111B14E93C00CF3617 /* libOADAdapterAdcolony.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CEC0031B1B14E93C00CF3617 /* OADAdapterAdcolonyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC003281B14E93C00CF3617 /* Build configuration list for PBXNativeTarget "OADAdapterAdcolonyTests" */;
+			buildPhases = (
+				CEC003181B14E93C00CF3617 /* Sources */,
+				CEC003191B14E93C00CF3617 /* Frameworks */,
+				CEC0031A1B14E93C00CF3617 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEC0031F1B14E93C00CF3617 /* PBXTargetDependency */,
+			);
+			name = OADAdapterAdcolonyTests;
+			productName = OADAdapterAdcolonyTests;
+			productReference = CEC0031C1B14E93C00CF3617 /* OADAdapterAdcolonyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEC003091B14E93C00CF3617 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = user;
+				TargetAttributes = {
+					CEC003101B14E93C00CF3617 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					CEC0031B1B14E93C00CF3617 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					CEC0032F1B14E9BC00CF3617 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = CEC0030C1B14E93C00CF3617 /* Build configuration list for PBXProject "OADAdapterAdcolony" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEC003081B14E93C00CF3617;
+			productRefGroup = CEC003121B14E93C00CF3617 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEC003101B14E93C00CF3617 /* OADAdapterAdcolony */,
+				CEC0031B1B14E93C00CF3617 /* OADAdapterAdcolonyTests */,
+				CEC0032F1B14E9BC00CF3617 /* UniversalLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEC0031A1B14E93C00CF3617 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CEC003331B14E9C300CF3617 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# define output folder environment variable\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\nBUILD_I386=${BUILD_DIR}/${CONFIGURATION}-extra\nmkdir -p ${BUILD_I386}\n\n# Step 1. Build Device and Simulator versions\nxcodebuild -target OADAdapterAdcolony ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\nxcodebuild -target OADAdapterAdcolony -configuration ${CONFIGURATION} -sdk iphonesimulator -arch x86_64 BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\nxcodebuild -target OADAdapterAdcolony -configuration ${CONFIGURATION} -sdk iphonesimulator -arch i386 BUILD_DIR=\"${BUILD_I386}\" BUILD_ROOT=\"${BUILD_ROOT}\"\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Step 2. Create universal binary file using lipo\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/lib${PROJECT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/lib${PROJECT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/lib${PROJECT_NAME}.a\" \"${BUILD_I386}/${CONFIGURATION}-iphonesimulator/lib${PROJECT_NAME}.a\"\n\n# Last touch. copy the header files. Just for convenience\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/include\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n\n\nmkdir -p \"${PROJECT_DIR}/result\"\ncp -R \"${UNIVERSAL_OUTPUTFOLDER}/\" \"${PROJECT_DIR}/result\"\n\ncp -R \"${UNIVERSAL_OUTPUTFOLDER}/\" /Users/user/my/git/test/oad/result/libs/adcolony\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEC0030D1B14E93C00CF3617 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC003171B14E93C00CF3617 /* OADAdapterAdcolony.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC003181B14E93C00CF3617 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEC0031F1B14E93C00CF3617 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEC003101B14E93C00CF3617 /* OADAdapterAdcolony */;
+			targetProxy = CEC0031E1B14E93C00CF3617 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CEC003231B14E93C00CF3617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEC003241B14E93C00CF3617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEC003261B14E93C00CF3617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/user/my/git/test/oad/AdColony-iOS-SDK",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CEC003271B14E93C00CF3617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/user/my/git/test/oad/AdColony-iOS-SDK",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CEC003291B14E93C00CF3617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OADAdapterAdcolonyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CEC0032A1B14E93C00CF3617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OADAdapterAdcolonyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CEC003311B14E9BC00CF3617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CEC003321B14E9BC00CF3617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEC0030C1B14E93C00CF3617 /* Build configuration list for PBXProject "OADAdapterAdcolony" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC003231B14E93C00CF3617 /* Debug */,
+				CEC003241B14E93C00CF3617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEC003251B14E93C00CF3617 /* Build configuration list for PBXNativeTarget "OADAdapterAdcolony" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC003261B14E93C00CF3617 /* Debug */,
+				CEC003271B14E93C00CF3617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEC003281B14E93C00CF3617 /* Build configuration list for PBXNativeTarget "OADAdapterAdcolonyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC003291B14E93C00CF3617 /* Debug */,
+				CEC0032A1B14E93C00CF3617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEC003301B14E9BC00CF3617 /* Build configuration list for PBXAggregateTarget "UniversalLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC003311B14E9BC00CF3617 /* Debug */,
+				CEC003321B14E9BC00CF3617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEC003091B14E93C00CF3617 /* Project object */;
+}

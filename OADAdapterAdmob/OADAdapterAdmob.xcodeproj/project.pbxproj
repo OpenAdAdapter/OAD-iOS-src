@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		CEC002471B14D41D00CF3617 /* UniversalLib */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = CEC002481B14D41D00CF3617 /* Build configuration list for PBXAggregateTarget "UniversalLib" */;
+			buildPhases = (
+				CEC0024B1B14D42800CF3617 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = UniversalLib;
+			productName = UniversalLib;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		CEC0022C1B14D33800CF3617 /* OADAdapterAdmob.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CEC0022B1B14D33800CF3617 /* OADAdapterAdmob.h */; };
+		CEC0022E1B14D33800CF3617 /* OADAdapterAdmob.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC0022D1B14D33800CF3617 /* OADAdapterAdmob.m */; };
+		CEC002341B14D33800CF3617 /* libOADAdapterAdmob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC002281B14D33800CF3617 /* libOADAdapterAdmob.a */; };
+		CEC002461B14D3F800CF3617 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC002451B14D3F800CF3617 /* GoogleMobileAds.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEC002351B14D33800CF3617 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEC002201B14D33800CF3617 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEC002271B14D33800CF3617;
+			remoteInfo = OADAdapterAdmob;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CEC002261B14D33800CF3617 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				CEC0022C1B14D33800CF3617 /* OADAdapterAdmob.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CEC002281B14D33800CF3617 /* libOADAdapterAdmob.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libOADAdapterAdmob.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC0022B1B14D33800CF3617 /* OADAdapterAdmob.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OADAdapterAdmob.h; sourceTree = "<group>"; };
+		CEC0022D1B14D33800CF3617 /* OADAdapterAdmob.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OADAdapterAdmob.m; sourceTree = "<group>"; };
+		CEC002331B14D33800CF3617 /* OADAdapterAdmobTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OADAdapterAdmobTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC002391B14D33800CF3617 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEC002431B14D38800CF3617 /* OADAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OADAdapter.h; path = ../../../OpenAdAdapterApp/OpenAdAdapterApp/OpenAdAdapter/OADAdapter.h; sourceTree = "<group>"; };
+		CEC002441B14D3D900CF3617 /* OpenAdAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OpenAdAdapter.h; path = ../../../OpenAdAdapterApp/OpenAdAdapterApp/OpenAdAdapter.h; sourceTree = "<group>"; };
+		CEC002451B14D3F800CF3617 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = ../../OpenAdAdapterApp/GoogleMobileAds.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEC002251B14D33800CF3617 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC002461B14D3F800CF3617 /* GoogleMobileAds.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC002301B14D33800CF3617 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC002341B14D33800CF3617 /* libOADAdapterAdmob.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEC0021F1B14D33800CF3617 = {
+			isa = PBXGroup;
+			children = (
+				CEC002451B14D3F800CF3617 /* GoogleMobileAds.framework */,
+				CEC0022A1B14D33800CF3617 /* OADAdapterAdmob */,
+				CEC002371B14D33800CF3617 /* OADAdapterAdmobTests */,
+				CEC002291B14D33800CF3617 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEC002291B14D33800CF3617 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEC002281B14D33800CF3617 /* libOADAdapterAdmob.a */,
+				CEC002331B14D33800CF3617 /* OADAdapterAdmobTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEC0022A1B14D33800CF3617 /* OADAdapterAdmob */ = {
+			isa = PBXGroup;
+			children = (
+				CEC002441B14D3D900CF3617 /* OpenAdAdapter.h */,
+				CEC002431B14D38800CF3617 /* OADAdapter.h */,
+				CEC0022B1B14D33800CF3617 /* OADAdapterAdmob.h */,
+				CEC0022D1B14D33800CF3617 /* OADAdapterAdmob.m */,
+			);
+			path = OADAdapterAdmob;
+			sourceTree = "<group>";
+		};
+		CEC002371B14D33800CF3617 /* OADAdapterAdmobTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEC002381B14D33800CF3617 /* Supporting Files */,
+			);
+			path = OADAdapterAdmobTests;
+			sourceTree = "<group>";
+		};
+		CEC002381B14D33800CF3617 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEC002391B14D33800CF3617 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEC002271B14D33800CF3617 /* OADAdapterAdmob */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC0023C1B14D33800CF3617 /* Build configuration list for PBXNativeTarget "OADAdapterAdmob" */;
+			buildPhases = (
+				CEC002241B14D33800CF3617 /* Sources */,
+				CEC002251B14D33800CF3617 /* Frameworks */,
+				CEC002261B14D33800CF3617 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OADAdapterAdmob;
+			productName = OADAdapterAdmob;
+			productReference = CEC002281B14D33800CF3617 /* libOADAdapterAdmob.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CEC002321B14D33800CF3617 /* OADAdapterAdmobTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC0023F1B14D33800CF3617 /* Build configuration list for PBXNativeTarget "OADAdapterAdmobTests" */;
+			buildPhases = (
+				CEC0022F1B14D33800CF3617 /* Sources */,
+				CEC002301B14D33800CF3617 /* Frameworks */,
+				CEC002311B14D33800CF3617 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEC002361B14D33800CF3617 /* PBXTargetDependency */,
+			);
+			name = OADAdapterAdmobTests;
+			productName = OADAdapterAdmobTests;
+			productReference = CEC002331B14D33800CF3617 /* OADAdapterAdmobTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEC002201B14D33800CF3617 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = user;
+				TargetAttributes = {
+					CEC002271B14D33800CF3617 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					CEC002321B14D33800CF3617 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					CEC002471B14D41D00CF3617 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = CEC002231B14D33800CF3617 /* Build configuration list for PBXProject "OADAdapterAdmob" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEC0021F1B14D33800CF3617;
+			productRefGroup = CEC002291B14D33800CF3617 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEC002271B14D33800CF3617 /* OADAdapterAdmob */,
+				CEC002321B14D33800CF3617 /* OADAdapterAdmobTests */,
+				CEC002471B14D41D00CF3617 /* UniversalLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEC002311B14D33800CF3617 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CEC0024B1B14D42800CF3617 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# define output folder environment variable\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\nBUILD_I386=${BUILD_DIR}/${CONFIGURATION}-extra\nmkdir -p ${BUILD_I386}\n\n# Step 1. Build Device and Simulator versions\nxcodebuild -target OADAdapterAdmob ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\nxcodebuild -target OADAdapterAdmob -configuration ${CONFIGURATION} -sdk iphonesimulator -arch x86_64 BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\nxcodebuild -target OADAdapterAdmob -configuration ${CONFIGURATION} -sdk iphonesimulator -arch i386 BUILD_DIR=\"${BUILD_I386}\" BUILD_ROOT=\"${BUILD_ROOT}\"\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Step 2. Create universal binary file using lipo\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/lib${PROJECT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/lib${PROJECT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/lib${PROJECT_NAME}.a\" \"${BUILD_I386}/${CONFIGURATION}-iphonesimulator/lib${PROJECT_NAME}.a\"\n\n# Last touch. copy the header files. Just for convenience\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/include\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n\nmkdir -p \"${PROJECT_DIR}/result\"\ncp -R \"${UNIVERSAL_OUTPUTFOLDER}/\" \"${PROJECT_DIR}/result\"\n\ncp -R \"${UNIVERSAL_OUTPUTFOLDER}/\" /Users/user/my/git/test/oad/result/libs/admob\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEC002241B14D33800CF3617 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC0022E1B14D33800CF3617 /* OADAdapterAdmob.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC0022F1B14D33800CF3617 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEC002361B14D33800CF3617 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEC002271B14D33800CF3617 /* OADAdapterAdmob */;
+			targetProxy = CEC002351B14D33800CF3617 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CEC0023A1B14D33800CF3617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEC0023B1B14D33800CF3617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEC0023D1B14D33800CF3617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/user/my/git/test/OpenAdAdapterApp,
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CEC0023E1B14D33800CF3617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/user/my/git/test/OpenAdAdapterApp,
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CEC002401B14D33800CF3617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OADAdapterAdmobTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CEC002411B14D33800CF3617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OADAdapterAdmobTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CEC002491B14D41D00CF3617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CEC0024A1B14D41D00CF3617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEC002231B14D33800CF3617 /* Build configuration list for PBXProject "OADAdapterAdmob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC0023A1B14D33800CF3617 /* Debug */,
+				CEC0023B1B14D33800CF3617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEC0023C1B14D33800CF3617 /* Build configuration list for PBXNativeTarget "OADAdapterAdmob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC0023D1B14D33800CF3617 /* Debug */,
+				CEC0023E1B14D33800CF3617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEC0023F1B14D33800CF3617 /* Build configuration list for PBXNativeTarget "OADAdapterAdmobTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC002401B14D33800CF3617 /* Debug */,
+				CEC002411B14D33800CF3617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEC002481B14D41D00CF3617 /* Build configuration list for PBXAggregateTarget "UniversalLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC002491B14D41D00CF3617 /* Debug */,
+				CEC0024A1B14D41D00CF3617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEC002201B14D33800CF3617 /* Project object */;
+}
